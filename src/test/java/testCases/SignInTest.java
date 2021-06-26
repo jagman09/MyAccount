@@ -17,7 +17,7 @@ public class SignInTest extends BaseClass{
 	MyAccount ma;
 @Test 
 public void verifyLogin() {
-	test = report.startTest("Verify Login Test started");
+	test = report.startTest("Verify Login Test started!");
 	hp = new HomePage (driver);
 	test.log(LogStatus.INFO, "Clicked Signin button");
 	hp.signInClick();
